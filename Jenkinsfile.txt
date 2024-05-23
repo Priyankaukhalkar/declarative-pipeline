@@ -4,7 +4,7 @@ pipeline {
   stages {
      stage('fetching the code') {
         steps {
-           echo "fetching the code from github"
+           echo "fetched the code from github"
              }
          }
      stage('build') {
